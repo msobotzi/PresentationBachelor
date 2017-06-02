@@ -1,11 +1,89 @@
-\documentclass{beamer}
- \begin{document}
- \begin{frame}
-   \frametitle{Titel der Folie}
-   \begin{itemize}
-     \item erstes Item 
-       \pause
-     \item Item nach der Pause
-   \end{itemize}
- \end{frame}
- \end{document}
+\documentclass{beamer} 
+% 
+\mode<presentation> 
+% 
+% 
+\usepackage{lmodern} 
+\usepackage[german]{babel} 
+\usepackage{amsmath} 
+\usepackage{mathrsfs} 
+\usepackage{dsfont} 
+\usepackage{ulem} 
+%\usepackage{float} 
+%%%%%%%%%%%%Essential Supremum and Infimum definitions%%%%%%%%%%%%%
+\DeclareMathOperator*{\esssup}{ess\sup} 
+\DeclareMathOperator*{\essinf}{ess\inf} 
+%%%%%%%%%%%%end definitions%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\setbeamercolor*{block title example}{bg=red} 
+\setbeamercolor*{block body example}{fg= black, bg= red} 
+\usepackage{xcolor} 
+%%%%%%%%%%%% Color definitions %%%%%%%%%%%%%%%%%% 
+\def\black#1{\textcolor{black}{#1}} 
+\def\blue#1{\textcolor{blue}{#1}} 
+\def\red#1{\textcolor{red}{#1}} 
+\def\green#1{\textcolor{green}{#1}} 
+\def\yellow#1{\textcolor{yellow}{#1}} 
+%%%%%%%%%%%%%%% end definitions %%%%%%%%%%%%%%%%%%%%%%%% 
+\usepackage{beamerthemeshadow} 
+% 
+\setbeamercolor*{leftfootline}{fg=white,bg=blue} 
+\setbeamercolor*{rightfootline}{fg=blue,bg=white} 
+% 
+\setbeamertemplate{footline}{% 
+\leavevmode% 
+\begin{beamercolorbox}[ht=2.5ex,dp=1.5ex,wd=0.3\paperwidth,center]{leftfootline} 
+\insertauthor 
+\end{beamercolorbox}% 
+\begin{beamercolorbox}[ht=2.5ex,dp=1.5ex,wd=0.7\paperwidth,center]{rightfootline} 
+\inserttitle 
+\end{beamercolorbox} 
+} 
+% 
+% 
+\title{Studies for the $\pi^0$ Calibration of the Crystal-Ball Detector}   
+\author{Martin Sobotzik} 
+\institute{Johannes-Gutenberg Universit\"at Mainz} 
+\date{xx.yy.2017} 
+% 
+\begin{document} 
+
+\begin{frame} 
+\titlepage 
+\end{frame} 
+
+
+\begin{frame} 
+\frametitle{Inhaltsverzeichnis} 
+\tableofcontents[currentsection]
+\end{frame} 
+\section{Motivation}
+\begin{frame}
+
+		\frametitle{The Process}
+	
+		\begin{equation}
+			\gamma + p \rightarrow \pi^0 +p \rightarrow p + \gamma_1 \gamma_2
+		\end{equation}
+		\begin{equation}
+		m_{\pi^0}=\sqrt{2 E_1E_2(1-\text{cos}(\alpha))}
+		\end{equation}
+		\pause
+			\begin{itemize}
+		\item Is there an energy dependency in the CB-Detector and how can it be checked?
+		\pause
+		 $\rightarrow |E_1 - E_2|<25\,\text{MeV}$
+		\pause
+
+		\item What are the reasons for the dependency?
+	\end{itemize}
+\end{frame}
+
+\section{Preparation}
+\begin{frame}
+	\frametitle{Crystal-Ball-Function / Reduction of the Underground}
+\end{frame}
+\begin{frame}
+\frametitle{Eventgenerator}
+\end{frame}
+
+\end{document} 
