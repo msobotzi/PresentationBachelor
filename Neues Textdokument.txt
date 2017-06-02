@@ -1,0 +1,3 @@
+netsh wlan set hostednetwork mode=allow ssid=YourBrand key=feSD$sd5Wpjh8G
+netsh wlan start hostednetwork
+netsh wlan stop hostednetwork
