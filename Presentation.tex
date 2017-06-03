@@ -3,12 +3,17 @@
 \mode<presentation> 
 % 
 % 
+
+\usepackage{verbatim}
 \usepackage{lmodern} 
 \usepackage[german]{babel} 
 \usepackage{amsmath} 
 \usepackage{mathrsfs} 
 \usepackage{dsfont} 
-\usepackage{ulem} 
+\usepackage{ulem}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,shapes.arrows}
+ 
 %\usepackage{float} 
 %%%%%%%%%%%%Essential Supremum and Infimum definitions%%%%%%%%%%%%%
 \DeclareMathOperator*{\esssup}{ess\sup} 
@@ -40,7 +45,7 @@
 } 
 % 
 % 
-\title{Studies for the $\pi^0$ Calibration of the Crystal-Ball Detector}   
+\title{Systematic Studies for the $\pi^0$ Calibration of the Crystal-Ball Detector}   
 \author{Martin Sobotzik} 
 \institute{Johannes-Gutenberg Universit\"at Mainz} 
 \date{xx.yy.2017} 
@@ -81,6 +86,26 @@
 \section{Preparation}
 \begin{frame}
 	\frametitle{Crystal-Ball-Function / Reduction of the Underground}
+	\begin{itemize}
+		\item Gaussian Fit Function $\rightarrow$ Crystal-Ball Fit Function
+		\pause
+		\item Check if the registered particles are charged $\rightarrow$ Reduction of the underground
+	\end{itemize}
+
+\pause
+\begin{figure}
+	
+		\includegraphics[width=0.50\textwidth]{Pictures/20171904RealIntervalFitExample}
+	\hfill
+		\includegraphics[width=0.50\textwidth]{Pictures/20171904RealUnchargedFitExample}
+		\caption{Beamtime: Expample for not reduced and reduced underground}
+\end{figure}
+\begin{tikzpicture}[remember picture,overlay]   
+\coordinate (b) at (5.0 , 4.25);
+\coordinate (c) at (5.7 , 4.25);
+\draw [thick,black, ->,thick] (b) -- (c);
+\end{tikzpicture}
+
 \end{frame}
 \begin{frame}
 \frametitle{Eventgenerator}
