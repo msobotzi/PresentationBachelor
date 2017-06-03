@@ -1,9 +1,9 @@
-\documentclass{beamer} 
+\documentclass[slidestop,compress,mathserif]{beamer} 
 % 
 \mode<presentation> 
 % 
 % 
-
+\usetheme{Antibes}
 \usepackage{verbatim}
 \usepackage{lmodern} 
 \usepackage[german]{babel} 
@@ -12,6 +12,9 @@
 \usepackage{dsfont} 
 \usepackage{ulem}
 \usepackage{tikz}
+\usepackage{multicol}
+\usepackage{enumerate}
+\usepackage{marvosym}
 \usetikzlibrary{arrows.meta,shapes.arrows}
  
 %\usepackage{float} 
@@ -76,6 +79,8 @@
 			\begin{itemize}
 		\item Is there an energy dependency in the CB-Detector and how can it be checked?
 		\pause
+		 
+		 
 		 $\rightarrow |E_1 - E_2|<25\,\text{MeV}$
 		\pause
 
@@ -89,7 +94,9 @@
 	\begin{itemize}
 		\item Gaussian Fit Function $\rightarrow$ Crystal-Ball Fit Function
 		\pause
-		\item Check if the registered particles are charged $\rightarrow$ Reduction of the underground
+		\item Check if the registered particles are charged 
+		
+		$\rightarrow$ Reduction of the underground
 	\end{itemize}
 
 \pause
@@ -98,17 +105,78 @@
 		\includegraphics[width=0.50\textwidth]{Pictures/20171904RealIntervalFitExample}
 	\hfill
 		\includegraphics[width=0.50\textwidth]{Pictures/20171904RealUnchargedFitExample}
-		\caption{Beamtime: Expample for not reduced and reduced underground}
+		\caption{Beamtime: Example for not reduced and reduced underground}
 \end{figure}
 \begin{tikzpicture}[remember picture,overlay]   
-\coordinate (b) at (5.0 , 4.25);
-\coordinate (c) at (5.7 , 4.25);
+\coordinate (b) at (5.0 , 3.5);
+\coordinate (c) at (5.7 , 3.5);
 \draw [thick,black, ->,thick] (b) -- (c);
 \end{tikzpicture}
 
 \end{frame}
 \begin{frame}
-\frametitle{Eventgenerator}
+\frametitle{Event Generator}
+Reasons for a new event generator:
+\pause
+\begin{itemize}
+	\item The condition $|E_1 - E_2|<25\,\text{MeV}$ is a strong cut 
+	
+	$\rightarrow$ There is no package with enough events
+	\pause
+	
+	\item Creating a new package with enough events would take to much time (multiple days on blaster)
+	\pause
+	
+	\item It would be better if the same generator is used for all studies
+	
+	$\rightarrow$ The generator should be able to simulate MAMI-Beam and isotropic decay 
+\end{itemize}
 \end{frame}
 
+\begin{frame}
+	\frametitle{Event Generator}
+\end{frame}
+\section{Studies}
+
+
+\begin{frame}
+	\frametitle{No Additional Cut }
+	
+	\begin{itemize}
+		\item Beamtime October 2014
+		\item No additional cut
+\end{itemize}
+	
+		\begin{figure}
+		
+		\includegraphics[width=0.50\textwidth]{Pictures/20171904Uncharged2DHist}
+		\hfill
+		\includegraphics[width=0.50\textwidth]{Pictures/20170405StrahlzeitDeviatoinNoCut}
+		\caption{Beamtime: No additional cut}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Detectors On At The Edge}
+	
+	\begin{itemize}
+		\item Beamtime October 2014
+		\item Neglect the detectors at the edge
+	\end{itemize}
+
+\begin{figure}
+	\includegraphics[width=0.75\textwidth]{Pictures/20170405StrahlzeitBothDeviation}
+	\caption{Beamtime: With and without considerations of the detectors on the edge of the beam entrance and exit }
+\end{figure}	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Simulation }
+\end{frame}
+
+\section{Further Results}
+\begin{frame}
+	\frametitle{Hot and Dead Crystals}
+	
+\end{frame}
 \end{document} 
