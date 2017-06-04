@@ -157,7 +157,7 @@ Reasons for a new event generator:
 \end{frame}
 
 \begin{frame}
-	\frametitle{Detectors On At The Edge}
+	\frametitle{Detectors On The Edge}
 	
 	\begin{itemize}
 		\item Beamtime October 2014
@@ -171,12 +171,146 @@ Reasons for a new event generator:
 \end{frame}
 
 \begin{frame}
-	\frametitle{Simulation }
+	\frametitle{Detectors On The Edge}
+	\begin{itemize}
+	
+	\item Simulation
+	\item Red:\, \, No additional cut
+	
+	Black: Neglect the detectors on the edge
+		
+	\end{itemize}
+
+\begin{figure}
+	
+	\includegraphics[width=0.50\textwidth]{Pictures/20171904SimNoCut2DHist}
+	\hfill
+	\includegraphics[width=0.50\textwidth]{Pictures/20172804MCBothDeviation}
+	\caption{Simulation: Left: Example for the two dimensional histogram with simulated data. Right: Deviation with and without the detectors on the edge}
+\end{figure}	
+	
 \end{frame}
+\begin{frame}
+	\frametitle{Minimum Opening Angle}
+	\begin{itemize}
+		\item Simulation
+		\item Opening angle $\alpha$ has to be bigger than $30^{\circ}$ degree
+		\item $m_{\pi^0}=\sqrt{2 E_1 E_2 (1-cos(\alpha))}$ with $E_1 \approx E_2$ $\rightarrow E_{max}\approx 250 \, \text{MeV}$
+	\end{itemize}
+
+	\begin{figure}
+		\includegraphics[width=0.35\textwidth]{Pictures/MCClusteringCheck_nCandsOpAng}
+		\includegraphics[width=0.50\textwidth]{Pictures/20170505MinAngle30Deviation}
+		\caption{Left: Number of reconstructed candidates for different opening angles. Right: Deviation with $\alpha > 30 \, \text{MeV}$ }
+	\end{figure}
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Isotropic Decay}
+	\begin{itemize}
+		\item Simulation
+		\item The $\pi^0$ decay in the origin of the target
+		\item The $\pi^0$ are boosted isotropic with an energy of $ 1420\, \text{MeV}$ to $1580\, \text{MeV}$
+	\end{itemize}
+	
+	\begin{figure}
+		\includegraphics[width=0.50\textwidth]{Pictures/20171204DistributionPhotonUrsprungIsotrop}
+		\includegraphics[width=0.50\textwidth]{Pictures/20172804IsotropUrpsprungDeviation}
+		\caption{Simulation: Isotropic decay in the origin of the target}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{$z$-Vertex Dependency}
+	\begin{itemize}
+		\item Simulation
+		\item Neglect the detectors on the edge
+		\item Devide the target in smaller sections of $1\,\text{cm}$
+	\end{itemize}
+
+
+\begin{figure}
+	\includegraphics[width=0.750\textwidth]{Pictures/20172804MCZVertexDeviation}
+	\caption{Simulation: Deviations for different $z$-Vertices}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Angle Between Generated And Reconstructed Candidates }
+
+\begin{itemize}
+	\item Simulation
+	\item The angle between the generated and the reconstructed candidate is calculated
+\end{itemize}
+
+\begin{figure}
+	\includegraphics[width=0.5\textwidth]{Pictures/20172604AngleRegGen100-125MeV}
+	\includegraphics[width=0.5\textwidth]{Pictures/20172604AngleRegGen400-425MeV}
+	\caption{Simulation: Angle between gen. and rec. candidates. Left: Photon energy between $125\,\text{MeV}$ and $150\,\text{MeV}$. Right: Photon energy between $425\,\text{MeV} $ and $ 450\,\text{MeV}$}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Differenz Between The Gen. And The Rec. Opening Angle}
+	
+	\begin{itemize}
+		\item Simulation
+		\item $\Delta \alpha = \alpha_{rec}-\alpha_{gen}$
+	\end{itemize}
+\begin{figure}
+	\includegraphics[width=0.5\textwidth]{Pictures/20172704MCDeviationOpeningAngle125MeV}
+	\includegraphics[width=0.5\textwidth]{Pictures/20172704MCDeviationOpeningAngle400MeV}
+\caption{Simulation: $\Delta \alpha$ for different photon energies. Left $125\,\text{MeV}$ to $150\,\text{MeV}$. Right from $425\,\text{MeV}$ to $450\,\text{MeV}$}
+\end{figure}
+
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{$\Delta \alpha$ For Different $z$-Vertices}
+	\begin{itemize}
+		\item Simulation
+		\item $\Delta \alpha$ for different energies and $z$-Vertices
+	\end{itemize}
+
+\begin{figure}
+	\includegraphics[width=0.35\textwidth]{Pictures/20170205DiffOeffZVertex-4_125MeV}
+	\includegraphics[width=0.35\textwidth]{Pictures/20170205DiffOeffZVertexUrsprung135MeV}	
+	\includegraphics[width=0.35\textwidth]{Pictures/20170205DiffOeffZVertex+4_125MeV}	
+
+	\includegraphics[width=0.35\textwidth]{Pictures/20170205DiffOeffZVertex-4_425MeV}
+	\includegraphics[width=0.35\textwidth]{Pictures/20170205DiffOeffZVertexUrsprung425MeV}
+	\includegraphics[width=0.35\textwidth]{Pictures/20170205DiffOeffZVertex+4_425MeV}	
+	\caption{Simulation: $\Delta \alpha$ for different photon energies. Decay at the beginning of the target }
+\end{figure}
+	
+\end{frame}
+
+
+
 
 \section{Further Results}
 \begin{frame}
 	\frametitle{Hot and Dead Crystals}
 	
+\end{frame}
+
+
+\section{Conclusion}
+\begin{frame}
+	\frametitle{Conclusion}
+	\begin{itemize}
+		\item There is a energy dependency in the detector
+		\item The reconstructed opening angle is too big for high energies
+		
+		$\rightarrow$ wrong reconstruction of the photon impact position is probably the reason for the dependency (clustering algorithm) 
+		\item The hardware of some PIDs has to be checked (too few events)
+		\item There is a strange $\phi$ distribution in the detector
+		
+		$\rightarrow$ reason for this has also to be determined
+	\end{itemize}
 \end{frame}
 \end{document} 
