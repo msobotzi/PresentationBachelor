@@ -6,7 +6,8 @@
 \usetheme{Antibes}
 \usepackage{verbatim}
 \usepackage{lmodern} 
-\usepackage[german]{babel} 
+%\usepackage[german]{babel} 
+\usepackage[english]{babel}
 \usepackage{amsmath} 
 \usepackage{mathrsfs} 
 \usepackage{dsfont} 
@@ -16,6 +17,8 @@
 \usepackage{enumerate}
 \usepackage{marvosym}
 \usepackage{capt-of}
+\usepackage{lipsum}
+
 \usetikzlibrary{arrows.meta,shapes.arrows}
  
 %\usepackage{float} 
@@ -62,7 +65,7 @@
 
 
 \begin{frame} 
-\frametitle{Inhaltsverzeichnis} 
+\frametitle{Table of Contents} 
 \tableofcontents[currentsection]
 \end{frame} 
 \section{Motivation}
@@ -303,18 +306,47 @@ Reasons for a new event generator:
 	\begin{figure}
 		\includegraphics[width=0.50\textwidth]{Pictures/20172104StrahlzeitClusterSize0Marker}
 		\includegraphics[width=0.50\textwidth]{Pictures/20172104StrahlzeitClusterSize0MarkerMap}
-		\caption{text}
+		\caption{Beamtime: Marked are Hot and known Dead Crystals }
 	\end{figure}
-	
 	\begin{table}
+	\captionof{table}{Beamtime: Element No. and No. in figure}
+	\scalebox{0.7}{
 	\begin{tabular}{lccccc}
 		Number in the figures & 1 & 2 & 3 & 4 & 5 \\
 		Element Number & 549 & 565 & 597 & 677 & 265 
 		
-	\end{tabular}
+	\end{tabular}}
 	\end{table}
 \end{frame}
 
+\begin{frame}
+	\frametitle{Hot Crystals and Clustersize $>$ 3}
+	\begin{itemize}
+		\item Beamtime October 2014
+		\item Photon energy between $0\,\text{MeV}$ and $100\,\text{MeV}$
+		\item Clustersize $>$ 3
+	\end{itemize}
+
+\begin{figure}
+	\includegraphics[width=0.75\textwidth]{Pictures/20172404Clustersize3Map100MeV}
+	\caption{Beamtime: Marked are Dead and Hot Crystals. The Clustersize must be bigger than 3}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Hot Crystals for Higher Energies}
+	\begin{itemize}
+		\item Beamtime October 2014
+		\item Photon energy between $300\,\text{MeV}$ and $400\,\text{MeV}$
+	\end{itemize}
+\begin{figure}
+	\includegraphics[width=0.75\textwidth]{Pictures/20172404Clustersize0Map400MeV}
+	\caption{Beamtime: Marked are Dead and Hot Crystals for high energies}
+\end{figure}
+
+
+\end{frame}
 
 \begin{frame}
 	\frametitle{Dead Crystals}
@@ -323,70 +355,82 @@ Reasons for a new event generator:
 		\item Photon energy between $300\,\text{MeV}$ and $400\,\text{MeV}$
 	\end{itemize}
 
-		\begin{table}[ht]
-			\begin{minipage}[b]{0.5\linewidth}
-				\centering
-				\includegraphics[width=1.0\textwidth]{Pictures/20172504StrahlzeitMoreDead}
-				\caption{Beamtime: Probably Dead Crystals in CB Map}
 
-			\end{minipage}
-		\hfill
-			\begin{minipage}[b]{0.45\linewidth}
-				\centering
-				\scalebox{0.6}{
-				\begin{tabular}{lcc}
-					No. in Fig. & Element Number & No. of Hits \\
-					
-					\hline
-					%\rowcolor{LightCyan}
-					6& \textcolor{red}{678} &\textcolor{red}{48} \\
-					
-					& 677&0 \\
-					
-					& 676& 11808\\ 
-					
-					
-					\hline
-					7& \textcolor{red}{17} &\textcolor{red}{21} \\
-					
-					& 16 & 3311\\
-					
-					& 18& 7175 \\
-					
-					& 19& 3439 \\
-					
-					\hline
-					
-					8 & \textcolor{red}{125} &\textcolor{red}{513} \\
-					
-					
-					& 122& 6613\\
-					
-					& 128 & 5307 \\
-					
-					& 126 & 4103 \\
-					
-					\hline
-					
-					9 & \textcolor{red}{89}& \textcolor{red}{2500}\\
-					
-					& 88& 8591\\
-					
-					&90&7975 \\
-					
-					&91&4652 \\
-					
-					
-					
-				\end{tabular}
+
+	\begin{figure}
+		\centering
+		\begin{minipage}[t]{.6\textwidth}
+			\centering
+			\vspace{0pt}
+			\includegraphics[width=\textwidth]{Pictures/20172504StrahlzeitMoreDead}
+			\caption{Beamtime: Marked are probably Dead Crystals}
+		\end{minipage}\hfill
+		\begin{minipage}[t]{.4\textwidth}
+			\centering
+			\vspace{0pt}
+			\captionof{table}{Beamtime: No. of events for the Dead Crystals and their neighbors}
+		\scalebox{0.50}{
+			\begin{tabular}{lcc}
+				No. in Fig. & Element Number & No. of Hits \\
+				
+				\hline
+				%\rowcolor{LightCyan}
+				6& \textcolor{red}{678} &\textcolor{red}{48} \\
+				
+				& 677&0 \\
+				
+				& 676& 11808\\ 
+				
+				
+				\hline
+				7& \textcolor{red}{17} &\textcolor{red}{21} \\
+				
+				& 16 & 3311\\
+				
+				& 18& 7175 \\
+				
+				& 19& 3439 \\
+				
+				\hline
+				
+				8 & \textcolor{red}{125} &\textcolor{red}{513} \\
+				
+				
+				& 122& 6613\\
+				
+				& 128 & 5307 \\
+				
+				& 126 & 4103 \\
+				
+				\hline
+				
+				9 & \textcolor{red}{89}& \textcolor{red}{2500}\\
+				
+				& 88& 8591\\
+				
+				&90&7975 \\
+				
+				&91&4652 \\
+				
+				
+				
+			\end{tabular}
 		}	
 		\end{minipage}
-		
-			
-		\end{table}
-	
+	\end{figure}
 \end{frame}
 
+\begin{frame}
+	\frametitle{$\phi$-Distribution in the CB}
+	\begin{itemize}
+		\item Beamtime October 2014
+		\item Photon energy between $200\,\text{MeV}$ and $225\,\text{MeV}$
+	\end{itemize}
+	\begin{figure}
+		\includegraphics[width=0.75\textwidth]{Pictures/20172404ThetaPhi200MeVBeam}
+		\caption{Beamtime: Distribution in the CB}
+	\end{figure}
+\end{frame}
 
 
 \section{Conclusion}
@@ -397,8 +441,8 @@ Reasons for a new event generator:
 		\item The reconstructed opening angle is too big for high energies
 		
 		$\rightarrow$ wrong reconstruction of the photon impact position is probably the reason for the dependency (Clustering Algorithm) 
-		\item The hardware of some PIDs has to be checked (too few events)
-		\item There is a strange $\phi$ distribution in the detector
+		\item The hardware of some PIDs has to be checked (too few or to many events)
+		\item There is a strange $\phi$-distribution in the detector
 		
 		$\rightarrow$ reason for this has also to be determined
 	\end{itemize}
