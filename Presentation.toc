@@ -4,3 +4,4 @@
 \beamer@sectionintoc {3}{Studies}{15}{0}{3}
 \beamer@sectionintoc {4}{Further Results}{24}{0}{4}
 \beamer@sectionintoc {5}{Conclusion}{29}{0}{5}
+\beamer@sectionintoc {6}{Appendix}{30}{0}{6}
