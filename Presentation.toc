@@ -1,7 +1,7 @@
 \select@language {english}
-\beamer@sectionintoc {1}{Motivation}{3}{0}{1}
-\beamer@sectionintoc {2}{Preparation}{7}{0}{2}
-\beamer@sectionintoc {3}{Studies}{15}{0}{3}
-\beamer@sectionintoc {4}{Further Results}{24}{0}{4}
-\beamer@sectionintoc {5}{Conclusion}{29}{0}{5}
-\beamer@sectionintoc {6}{Appendix}{30}{0}{6}
+\beamer@sectionintoc {1}{Motivation}{2}{0}{1}
+\beamer@sectionintoc {2}{Preparation}{6}{0}{2}
+\beamer@sectionintoc {3}{Studies}{14}{0}{3}
+\beamer@sectionintoc {4}{Further Results}{23}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{28}{0}{5}
+\beamer@sectionintoc {6}{Appendix}{29}{0}{6}
