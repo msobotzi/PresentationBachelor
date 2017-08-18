@@ -55,7 +55,7 @@
 \title{Systematic Studies for the $\pi^0$ Calibration of the Crystal-Ball Detector}   
 \author{Martin Sobotzik} 
 \institute{Johannes Gutenberg-Universit\"at Mainz} 
-\date{xx.yy.2017} 
+\date{29.05.2017} 
 % 
 \begin{document} 
 
@@ -73,15 +73,15 @@
 
 		\frametitle{The Process}
 	
-		\begin{equation}
-			\gamma + p \rightarrow \pi^0 +p \rightarrow p + \gamma_1 \gamma_2
-		\end{equation}
-		\begin{equation}
-		m_{\pi^0}=\sqrt{2 E_1E_2(1-\text{cos}(\alpha))}
-		\end{equation}
+		\begin{center}
+		$	\gamma + p \rightarrow \pi^0 +p \rightarrow p + \gamma_1 \gamma_2$
+		\end{center}
+		\begin{center}
+		$m_{\pi^0}=\sqrt{2 E_1E_2(1-\text{cos}(\alpha))}$
+		\end{center}
 		\pause
 			\begin{itemize}
-		\item How can it be checked if there is a energy dependency in the CB?
+		\item How can it be checked whether there is a energy dependency in the CB or not?
 		\pause
 		 
 		 
@@ -103,7 +103,7 @@
 		$\rightarrow$ Reduction of the underground
 	\end{itemize}
 
-\pause
+
 \begin{figure}
 	
 		\includegraphics[width=0.50\textwidth]{Pictures/20171904RealIntervalFitExample}
@@ -121,19 +121,19 @@
 \begin{frame}
 \frametitle{Event Generator}
 Reasons for a new event generator:
-\pause
+
 \begin{itemize}
 	\item The condition $|E_1 - E_2|<25\,\text{MeV}$ is a strong cut 
 	
 	$\rightarrow$ There is no package with enough events
 	\pause
 	
-	\item Creating a new package with enough events would take to much time (multiple days on blaster)
+	\item Creating a new package with enough events with an already existing event generator would take too much time (multiple days on blaster)
 	\pause
 	
 	\item It is better to use the same generator in all studies
 	
-	$\rightarrow$ The generator should be able to simulate MAMI-Beam and isotropic decay 
+	$\rightarrow$ The generator should be able to simulate MAMI-Beam and isotropic boost
 \end{itemize}
 \end{frame}
 
@@ -144,12 +144,12 @@ Reasons for a new event generator:
 		\caption{$\pi^0$-Event Generator: Commands}
 	\end{figure}
 	\begin{itemize}
-		\item Emin: Minimal energy of the beam or the $\pi^0$, if Prod is false
-		\item Emax: Maximal energy of the beam or the $\pi^0$, if Prod is false
+		\item Emin: Minimal energy of the beam/boost
+		\item Emax: Maximal energy of the beam/boost
 		\item Events: Number of events
-		\item Reqsym: Require $|E_{1}-E_{2}|<25\,\text{MeV}$
-		\item ZBoost: Boost the $\pi^0$ in $z$-Direction
-		\item Prod: Get the production of the $\pi^0$
+		\item Sym: Require $|E_{1}-E_{2}|<25\,\text{MeV}$
+		\item ZBoost: Boost the $\pi^0$ in $z$-Direction, if false than isotropic boost
+		\item Prod: Also takes the proton into account
 	\end{itemize}
 \end{frame}
 
@@ -218,17 +218,17 @@ Reasons for a new event generator:
 	\begin{figure}
 		\includegraphics[width=0.35\textwidth]{Pictures/MCClusteringCheck_nCandsOpAng}
 		\includegraphics[width=0.50\textwidth]{Pictures/20170505MinAngle30Deviation}
-		\caption{Left: Number of reconstructed candidates for different opening angles. Right: Deviation with $\alpha > 30 \, \text{MeV}$ }
+		\caption{Left: Number of reconstructed candidates for different opening angles. Right: Deviation with $\alpha > 30 ^{\circ}$ }
 	\end{figure}
 	
 \end{frame}
 
 \begin{frame}
-	\frametitle{Isotropic Decay}
+	\frametitle{Isotropic Boost}
 	\begin{itemize}
 		\item Simulation
 		\item $\pi^0$ decay in the origin of the target
-		\item $\pi^0$ are boosted isotropic with an energy of $ 1420\, \text{MeV}$ to $1580\, \text{MeV}$
+		\item $\pi^0$ are boosted isotropically with an energy of $ 1420\, \text{MeV}$ to $1580\, \text{MeV}$
 	\end{itemize}
 	
 	\begin{figure}
@@ -243,7 +243,7 @@ Reasons for a new event generator:
 	\begin{itemize}
 		\item Simulation
 		\item Neglect the detectors on the edge
-		\item Devide the target in smaller sections of $1\,\text{cm}$
+		\item Devide the target in sections of $1\,\text{cm}$
 	\end{itemize}
 
 
