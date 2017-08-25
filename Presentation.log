@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.3)  25 AUG 2017 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.3)  25 AUG 2017 14:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1318,19 +1318,21 @@ Overfull \hbox (39.60687pt too wide) has occurred while \output is active
 [17
 
  <./Pictures/20172804MCZVertexDeviation.pdf, page is rotated 90 degrees>]
-<Pictures/20172604AngleRegGen100-125MeV.pdf, id=1138, 569.12625pt x 331.2375pt>
+<Pictures/20172604AngleRegGen100-125MeV.pdf, id=1138, 569.05696pt x 339.63782pt
+>
 File: Pictures/20172604AngleRegGen100-125MeV.pdf Graphic file (type pdf)
-<use Pictures/20172604AngleRegGen100-125MeV.pdf>
+ <use Pictures/20172604AngleRegGen100-125MeV.pdf>
 Package pdftex.def Info: Pictures/20172604AngleRegGen100-125MeV.pdf used on inp
 ut line 278.
-(pdftex.def)             Requested size: 153.64493pt x 89.4252pt.
+(pdftex.def)             Requested size: 153.64493pt x 91.69824pt.
 
-<Pictures/20172604AngleRegGen400-425MeV.pdf, id=1139, 569.12625pt x 331.2375pt>
+<Pictures/20172604AngleRegGen400-425MeV.pdf, id=1139, 569.05696pt x 333.18515pt
+>
 File: Pictures/20172604AngleRegGen400-425MeV.pdf Graphic file (type pdf)
-<use Pictures/20172604AngleRegGen400-425MeV.pdf>
+ <use Pictures/20172604AngleRegGen400-425MeV.pdf>
 Package pdftex.def Info: Pictures/20172604AngleRegGen400-425MeV.pdf used on inp
 ut line 278.
-(pdftex.def)             Requested size: 153.64493pt x 89.4252pt.
+(pdftex.def)             Requested size: 153.64493pt x 89.9561pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
@@ -1338,25 +1340,29 @@ Overfull \hbox (39.60687pt too wide) has occurred while \output is active
 
 [18
 
- <./Pictures/20172604AngleRegGen100-125MeV.pdf, page is rotated 90 degrees> <./
-Pictures/20172604AngleRegGen400-425MeV.pdf, page is rotated 90 degrees>]
-<Pictures/20172704MCDeviationOpeningAngle125MeV.pdf, id=1258, 569.12625pt x 331
-.2375pt>
+ <./Pictures/20172604AngleRegGen100-125MeV.pdf> <./Pictures/20172604AngleRegGen
+400-425MeV.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Pictures/20172604AngleRegGen400-425Me
+V.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Pictures/20172704MCDeviationOpeningAngle125MeV.pdf, id=1332, 569.05696pt x 335
+.33578pt>
 File: Pictures/20172704MCDeviationOpeningAngle125MeV.pdf Graphic file (type pdf
 )
  <use Pictures/20172704MCDeviationOpeningAngle125MeV.pdf>
 Package pdftex.def Info: Pictures/20172704MCDeviationOpeningAngle125MeV.pdf use
-d on input line 294.
-(pdftex.def)             Requested size: 153.64493pt x 89.4252pt.
+d on input line 293.
+(pdftex.def)             Requested size: 153.64493pt x 90.53674pt.
 
-<Pictures/20172704MCDeviationOpeningAngle400MeV.pdf, id=1259, 569.12625pt x 331
-.2375pt>
+<Pictures/20172704MCDeviationOpeningAngle400MeV.pdf, id=1333, 569.05696pt x 331
+.03401pt>
 File: Pictures/20172704MCDeviationOpeningAngle400MeV.pdf Graphic file (type pdf
 )
  <use Pictures/20172704MCDeviationOpeningAngle400MeV.pdf>
 Package pdftex.def Info: Pictures/20172704MCDeviationOpeningAngle400MeV.pdf use
-d on input line 294.
-(pdftex.def)             Requested size: 153.64493pt x 89.4252pt.
+d on input line 293.
+(pdftex.def)             Requested size: 153.64493pt x 89.37532pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
@@ -1364,70 +1370,77 @@ Overfull \hbox (39.60687pt too wide) has occurred while \output is active
 
 [19
 
- <./Pictures/20172704MCDeviationOpeningAngle125MeV.pdf, page is rotated 90 degr
-ees> <./Pictures/20172704MCDeviationOpeningAngle400MeV.pdf, page is rotated 90 
-degrees>]
-<Pictures/20170205DiffOeffZVertex-4_125MeV.pdf, id=1378, 569.05696pt x 340.0913
+ <./Pictures/20172704MCDeviationOpeningAngle125MeV.pdf> <./Pictures/20172704MCD
+eviationOpeningAngle400MeV.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Pictures/20172704MCDeviationOpeningAn
+gle400MeV.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+>]
+Overfull \hbox (39.60687pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+[20
+
+]
+<Pictures/20170205DiffOeffZVertex-4_125MeV.pdf, id=1617, 569.05696pt x 340.0913
 8pt>
 File: Pictures/20170205DiffOeffZVertex-4_125MeV.pdf Graphic file (type pdf)
  <use Pictures/20170205DiffOeffZVertex-4_125MeV.pdf>
 Package pdftex.def Info: Pictures/20170205DiffOeffZVertex-4_125MeV.pdf used on 
-input line 314.
+input line 318.
 (pdftex.def)             Requested size: 107.55333pt x 64.27553pt.
 
-<Pictures/20170205DiffOeffZVertexUrsprung135MeV.pdf, id=1379, 569.12625pt x 331
+<Pictures/20170205DiffOeffZVertexUrsprung135MeV.pdf, id=1618, 569.12625pt x 331
 .2375pt>
 File: Pictures/20170205DiffOeffZVertexUrsprung135MeV.pdf Graphic file (type pdf
 )
  <use Pictures/20170205DiffOeffZVertexUrsprung135MeV.pdf>
 Package pdftex.def Info: Pictures/20170205DiffOeffZVertexUrsprung135MeV.pdf use
-d on input line 314.
+d on input line 318.
 (pdftex.def)             Requested size: 107.55333pt x 62.59714pt.
 
-<Pictures/20170205DiffOeffZVertex+4_125MeV.pdf, id=1380, 569.12625pt x 331.2375
+<Pictures/20170205DiffOeffZVertex+4_125MeV.pdf, id=1619, 569.12625pt x 331.2375
 pt>
 File: Pictures/20170205DiffOeffZVertex+4_125MeV.pdf Graphic file (type pdf)
  <use Pictures/20170205DiffOeffZVertex+4_125MeV.pdf>
 Package pdftex.def Info: Pictures/20170205DiffOeffZVertex+4_125MeV.pdf used on 
-input line 314.
+input line 318.
 (pdftex.def)             Requested size: 107.55333pt x 62.59714pt.
 
-Overfull \hbox (15.37012pt too wide) in paragraph at lines 314--314
+Overfull \hbox (15.37012pt too wide) in paragraph at lines 318--318
  [][][] 
  []
 
 
-<Pictures/20170205DiffOeffZVertex-4_425MeV.pdf, id=1381, 569.12625pt x 331.2375
+<Pictures/20170205DiffOeffZVertex-4_425MeV.pdf, id=1620, 569.12625pt x 331.2375
 pt>
 File: Pictures/20170205DiffOeffZVertex-4_425MeV.pdf Graphic file (type pdf)
  <use Pictures/20170205DiffOeffZVertex-4_425MeV.pdf>
 Package pdftex.def Info: Pictures/20170205DiffOeffZVertex-4_425MeV.pdf used on 
-input line 314.
+input line 318.
 (pdftex.def)             Requested size: 107.55333pt x 62.59714pt.
 
-<Pictures/20170205DiffOeffZVertexUrsprung425MeV.pdf, id=1382, 569.12625pt x 331
+<Pictures/20170205DiffOeffZVertexUrsprung425MeV.pdf, id=1621, 569.12625pt x 331
 .2375pt>
 File: Pictures/20170205DiffOeffZVertexUrsprung425MeV.pdf Graphic file (type pdf
 )
  <use Pictures/20170205DiffOeffZVertexUrsprung425MeV.pdf>
 Package pdftex.def Info: Pictures/20170205DiffOeffZVertexUrsprung425MeV.pdf use
-d on input line 314.
+d on input line 318.
 (pdftex.def)             Requested size: 107.55333pt x 62.59714pt.
 
-<Pictures/20170205DiffOeffZVertex+4_425MeV.pdf, id=1383, 569.12625pt x 331.2375
+<Pictures/20170205DiffOeffZVertex+4_425MeV.pdf, id=1622, 569.12625pt x 331.2375
 pt>
 File: Pictures/20170205DiffOeffZVertex+4_425MeV.pdf Graphic file (type pdf)
  <use Pictures/20170205DiffOeffZVertex+4_425MeV.pdf>
 Package pdftex.def Info: Pictures/20170205DiffOeffZVertex+4_425MeV.pdf used on 
-input line 314.
+input line 318.
 (pdftex.def)             Requested size: 107.55333pt x 62.59714pt.
 
-Overfull \hbox (15.37012pt too wide) in paragraph at lines 314--314
+Overfull \hbox (15.37012pt too wide) in paragraph at lines 318--318
  [][][][] 
- []
-
-
-Overfull \vbox (9.6227pt too high) detected at line 314
  []
 
 
@@ -1435,7 +1448,7 @@ Overfull \hbox (39.60687pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[20
+[21
 
  <./Pictures/20170205DiffOeffZVertex-4_125MeV.pdf> <./Pictures/20170205DiffOeff
 ZVertexUrsprung135MeV.pdf
@@ -1464,33 +1477,29 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Pictures/20170205DiffOeffZVertex+4_42
 5MeV.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
 ge
 >]
-<Pictures/20172104StrahlzeitClusterSize0Marker.pdf, id=2026, 1443.89438pt x 839
+<Pictures/20172104StrahlzeitClusterSize0Marker.pdf, id=2265, 1443.89438pt x 839
 .38594pt>
 File: Pictures/20172104StrahlzeitClusterSize0Marker.pdf Graphic file (type pdf)
 
  <use Pictures/20172104StrahlzeitClusterSize0Marker.pdf>
 Package pdftex.def Info: Pictures/20172104StrahlzeitClusterSize0Marker.pdf used
- on input line 340.
+ on input line 344.
 (pdftex.def)             Requested size: 153.64493pt x 89.31004pt.
 
-<Pictures/20172104StrahlzeitClusterSize0MarkerMap.pdf, id=2027, 403.5075pt x 24
+<Pictures/20172104StrahlzeitClusterSize0MarkerMap.pdf, id=2266, 403.5075pt x 24
 1.65282pt>
 File: Pictures/20172104StrahlzeitClusterSize0MarkerMap.pdf Graphic file (type p
 df)
  <use Pictures/20172104StrahlzeitClusterSize0MarkerMap.pdf>
 Package pdftex.def Info: Pictures/20172104StrahlzeitClusterSize0MarkerMap.pdf u
-sed on input line 340.
+sed on input line 344.
 (pdftex.def)             Requested size: 153.64493pt x 92.01338pt.
-
-Overfull \vbox (10.19627pt too high) detected at line 340
- []
-
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[21
+[22
 
  <./Pictures/20172104StrahlzeitClusterSize0Marker.pdf> <./Pictures/20172104Stra
 hlzeitClusterSize0MarkerMap.pdf
@@ -1499,31 +1508,12 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Pictures/20172104StrahlzeitClusterSiz
 e0MarkerMap.pdf): PDF inclusion: multiple pdfs with page group included in a si
 ngle page
 >]
-<Pictures/20172404Clustersize3Map100MeV.pdf, id=2080, 1246.6575pt x 724.20563pt
+<Pictures/20172404Clustersize3Map100MeV.pdf, id=2319, 1246.6575pt x 724.20563pt
 >
 File: Pictures/20172404Clustersize3Map100MeV.pdf Graphic file (type pdf)
  <use Pictures/20172404Clustersize3Map100MeV.pdf>
 Package pdftex.def Info: Pictures/20172404Clustersize3Map100MeV.pdf used on inp
-ut line 355.
-(pdftex.def)             Requested size: 230.46739pt x 133.87648pt.
-
-Overfull \vbox (15.49905pt too high) detected at line 355
- []
-
-
-Overfull \hbox (39.60687pt too wide) has occurred while \output is active
-  [] [] [] [] [] [] [] [] [] 
- []
-
-[22
-
- <./Pictures/20172404Clustersize3Map100MeV.pdf>]
-<Pictures/20172404Clustersize0Map400MeV.pdf, id=2122, 1246.6575pt x 724.20563pt
->
-File: Pictures/20172404Clustersize0Map400MeV.pdf Graphic file (type pdf)
- <use Pictures/20172404Clustersize0Map400MeV.pdf>
-Package pdftex.def Info: Pictures/20172404Clustersize0Map400MeV.pdf used on inp
-ut line 369.
+ut line 361.
 (pdftex.def)             Requested size: 230.46739pt x 133.87648pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
@@ -1532,14 +1522,17 @@ Overfull \hbox (39.60687pt too wide) has occurred while \output is active
 
 [23
 
- <./Pictures/20172404Clustersize0Map400MeV.pdf>]
-<Pictures/20172504StrahlzeitMoreDead.pdf, id=2164, 1246.6575pt x 724.20563pt>
-File: Pictures/20172504StrahlzeitMoreDead.pdf Graphic file (type pdf)
+ <./Pictures/20172404Clustersize3Map100MeV.pdf>]
+<Pictures/20172404Clustersize0Map400MeV.pdf, id=2361, 1246.6575pt x 724.20563pt
+>
+File: Pictures/20172404Clustersize0Map400MeV.pdf Graphic file (type pdf)
+ <use Pictures/20172404Clustersize0Map400MeV.pdf>
+Package pdftex.def Info: Pictures/20172404Clustersize0Map400MeV.pdf used on inp
+ut line 375.
+(pdftex.def)             Requested size: 230.46739pt x 133.87648pt.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 375.
 
-<use Pictures/20172504StrahlzeitMoreDead.pdf>
-Package pdftex.def Info: Pictures/20172504StrahlzeitMoreDead.pdf used on input 
-line 441.
-(pdftex.def)             Requested size: 184.3758pt x 107.10118pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
@@ -1547,14 +1540,19 @@ Overfull \hbox (39.60687pt too wide) has occurred while \output is active
 
 [24
 
- <./Pictures/20172504StrahlzeitMoreDead.pdf>]
-<Pictures/20172404ThetaPhi200MeVBeam.pdf, id=2206, 569.12625pt x 331.2375pt>
-File: Pictures/20172404ThetaPhi200MeVBeam.pdf Graphic file (type pdf)
+ <./Pictures/20172404Clustersize0Map400MeV.pdf>]
+<Pictures/20172504StrahlzeitMoreDead.pdf, id=2405, 1246.6575pt x 724.20563pt>
+File: Pictures/20172504StrahlzeitMoreDead.pdf Graphic file (type pdf)
 
-<use Pictures/20172404ThetaPhi200MeVBeam.pdf>
-Package pdftex.def Info: Pictures/20172404ThetaPhi200MeVBeam.pdf used on input 
-line 453.
-(pdftex.def)             Requested size: 230.46739pt x 134.13528pt.
+<use Pictures/20172504StrahlzeitMoreDead.pdf>
+Package pdftex.def Info: Pictures/20172504StrahlzeitMoreDead.pdf used on input 
+line 447.
+(pdftex.def)             Requested size: 184.3758pt x 107.10118pt.
+
+Overfull \hbox (11.12468pt too wide) in paragraph at lines 447--447
+ [][] 
+ []
+
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
@@ -1562,34 +1560,49 @@ Overfull \hbox (39.60687pt too wide) has occurred while \output is active
 
 [25
 
- <./Pictures/20172404ThetaPhi200MeVBeam.pdf, page is rotated 90 degrees>]
+ <./Pictures/20172504StrahlzeitMoreDead.pdf>]
+<Pictures/20172404ThetaPhi200MeVBeam.pdf, id=2447, 569.12625pt x 331.2375pt>
+File: Pictures/20172404ThetaPhi200MeVBeam.pdf Graphic file (type pdf)
+
+<use Pictures/20172404ThetaPhi200MeVBeam.pdf>
+Package pdftex.def Info: Pictures/20172404ThetaPhi200MeVBeam.pdf used on input 
+line 460.
+(pdftex.def)             Requested size: 230.46739pt x 134.13528pt.
+
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
 [26
 
-] <Pictures/20170724RecETrueOAngle.pdf, id=2312, 569.12625pt x 331.2375pt>
+ <./Pictures/20172404ThetaPhi200MeVBeam.pdf, page is rotated 90 degrees>]
+Overfull \hbox (39.60687pt too wide) has occurred while \output is active
+  [] [] [] [] [] [] [] [] [] 
+ []
+
+[27
+
+] <Pictures/20170724RecETrueOAngle.pdf, id=2552, 569.12625pt x 331.2375pt>
 File: Pictures/20170724RecETrueOAngle.pdf Graphic file (type pdf)
 
 <use Pictures/20170724RecETrueOAngle.pdf>
 Package pdftex.def Info: Pictures/20170724RecETrueOAngle.pdf used on input line
- 479.
+ 486.
 (pdftex.def)             Requested size: 153.64493pt x 89.4252pt.
 
-<Pictures/20170724TrueERecOAngle.pdf, id=2313, 569.12625pt x 331.2375pt>
+<Pictures/20170724TrueERecOAngle.pdf, id=2553, 569.12625pt x 331.2375pt>
 File: Pictures/20170724TrueERecOAngle.pdf Graphic file (type pdf)
 
 <use Pictures/20170724TrueERecOAngle.pdf>
 Package pdftex.def Info: Pictures/20170724TrueERecOAngle.pdf used on input line
- 479.
+ 486.
 (pdftex.def)             Requested size: 153.64493pt x 89.4252pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
  []
 
-[27
+[28
 
  <./Pictures/20170724RecETrueOAngle.pdf, page is rotated 90 degrees> <./Picture
 s/20170724TrueERecOAngle.pdf, page is rotated 90 degrees>]
@@ -1602,21 +1615,21 @@ s/20170724TrueERecOAngle.pdf, page is rotated 90 degrees>]
 \tf@snm=\write8
 \openout8 = `Presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 480.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 480.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 487.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 487.
 
 (./Presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 480.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 480.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 487.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 487.
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 9C556E7476B0A5702C9B17893C672F48;271.
  ) 
 Here is how much of TeX's memory you used:
- 21959 strings out of 494852
- 433699 string characters out of 6177658
- 610837 words of memory out of 5000000
- 24635 multiletter control sequences out of 15000+600000
- 61011 words of font info for 70 fonts, out of 8000000 for 9000
+ 21964 strings out of 494852
+ 433754 string characters out of 6177658
+ 609837 words of memory out of 5000000
+ 24637 multiletter control sequences out of 15000+600000
+ 58328 words of font info for 69 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  48i,16n,65p,797b,623s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
@@ -1631,11 +1644,12 @@ b></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type
 re/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
-msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Presentation.pdf (27 pages, 1503090 bytes).
+msso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmsy8.pfb>
+Output written on Presentation.pdf (28 pages, 1554446 bytes).
 PDF statistics:
- 2502 PDF objects out of 2984 (max. 8388607)
- 1758 compressed objects within 18 object streams
- 61 named destinations out of 1000 (max. 500000)
+ 2745 PDF objects out of 2984 (max. 8388607)
+ 1973 compressed objects within 20 object streams
+ 63 named destinations out of 1000 (max. 500000)
  277 words of extra memory for PDF output out of 10000 (max. 10000000)
 
