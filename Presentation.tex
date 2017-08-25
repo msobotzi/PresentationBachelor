@@ -1,5 +1,5 @@
 \documentclass[slidestop,compress,mathserif]{beamer} 
- 
+% 
 \mode<presentation> 
 % 
 % 
@@ -98,11 +98,12 @@
 \begin{frame}
 	\frametitle{Crystal-Ball-Function / Reduction of the Underground}
 	\begin{itemize}
-		\item Gaussian Fit Function $\rightarrow$ Crystal-Ball Fit Function
-		\pause
-		\item Check if the registered particles are charged 
+		
+	
+		\item Check if the registered particles are uncharged 
 		
 		$\rightarrow$ Reduction of the underground
+		\item Used signal line shape: Crystal-Ball Function
 	\end{itemize}
 
 
@@ -111,7 +112,7 @@
 		\includegraphics[width=0.50\textwidth]{Pictures/20171904RealIntervalFitExample}
 	\hfill
 		\includegraphics[width=0.50\textwidth]{Pictures/20171904RealUnchargedFitExample}
-		\caption{Beamtime: Example for not reduced and reduced underground}
+		
 \end{figure}
 \begin{tikzpicture}[remember picture,overlay]   
 \coordinate (b) at (5.0 , 3.5);
@@ -121,16 +122,17 @@
 
 \end{frame}
 \begin{frame}
-\frametitle{Event Generator}
-Reasons for a new event generator:
+\frametitle{Event-Generator}
+
 
 \begin{itemize}
-	\item The condition $|E_1 - E_2|<25\,\text{MeV}$ is a strong cut 
+	\item $|E_1 - E_2| < 25\,\text{MeV}$ is a strong cut. One need really large MC statistics. 
 	
-	$\rightarrow$ There is no package with enough events
+	$\rightarrow$ There is no MC sample with enough events
 	\pause
 	
-	\item Creating a new package with enough events with an already existing event generator would take too much time (multiple days on blaster)
+	\item Creating a new sample with enough events with an already existing Event-Generator would take too much time (multiple days on blaster).
+	Not Efficient!
 	\pause
 	
 	\item It is better to use the same generator in all studies
@@ -140,10 +142,11 @@ Reasons for a new event generator:
 \end{frame}
 
 \begin{frame}
-	\frametitle{Event Generator}
+	\frametitle{Event-Generator in ANT}
+	New Event-Generator integrated in ANT
 	\begin{figure}
 		\includegraphics[width=1.1\textwidth]{Pictures/Gun}
-		\caption{$\pi^0$-Event Generator: Commands}
+		
 	\end{figure}
 	\begin{itemize}
 		\item Emin: Minimal energy of the beam/boost
@@ -159,11 +162,11 @@ Reasons for a new event generator:
 
 
 \begin{frame}
-	\frametitle{No Additional Cut }
+	\frametitle{First look at real data}
 	
 	\begin{itemize}
 		\item Beamtime October 2014
-		\item No additional cut
+		\item Well-calibrated 
 \end{itemize}
 	
 		\begin{figure}
@@ -171,8 +174,9 @@ Reasons for a new event generator:
 		\includegraphics[width=0.50\textwidth]{Pictures/20171904Uncharged2DHist}
 		\hfill
 		\includegraphics[width=0.50\textwidth]{Pictures/20170405StrahlzeitDeviatoinNoCut}
-		\caption{Beamtime: No additional cut}
-	\end{figure}	
+		
+	\end{figure}
+$\rightarrow$ There is a dependency	
 \end{frame}
 
 \begin{frame}
@@ -180,20 +184,20 @@ Reasons for a new event generator:
 	
 	\begin{itemize}
 		\item Beamtime October 2014
-		\item Neglect the detectors at the edge
+		\item Neglect the detectors at the edge: They are difficult to calibrate because they have less neighbors
 	\end{itemize}
 
 \begin{figure}
 	\includegraphics[width=0.75\textwidth]{Pictures/20170405StrahlzeitBothDeviation}
-	\caption{Beamtime: With and without considerations of the detectors on the edge of the beam entrance and exit }
-\end{figure}	
+\end{figure}
+	
 \end{frame}
 
 \begin{frame}
-	\frametitle{Detectors on the Edge}
+	\frametitle{How does MC look like?}
 	\begin{itemize}
 	
-	\item Simulation
+	
 	\item Red:\, \, No additional cut
 	
 	Black: Neglect the detectors on the edge
@@ -205,47 +209,47 @@ Reasons for a new event generator:
 	\includegraphics[width=0.50\textwidth]{Pictures/20171904SimNoCut2DHist}
 	\hfill
 	\includegraphics[width=0.50\textwidth]{Pictures/20172804MCBothDeviation}
-	\caption{Simulation: Left: Example for the two dimensional histogram with simulated data. Right: Deviation with and without the detectors on the edge}
-\end{figure}	
-	
-\end{frame}
-\begin{frame}
-	\frametitle{Minimum Opening Angle}
-	\begin{itemize}
-		\item Simulation
-		\item Opening angle $\alpha$ has to be bigger than $30^{\circ}$ degree
-		\item $m_{\pi^0}=\sqrt{2 E_1 E_2 (1-\text{cos}(\alpha))}$ with $E_1 \approx E_2$ $\rightarrow E_{max}\approx 250 \, \text{MeV}$
-	\end{itemize}
 
-	\begin{figure}
-		\includegraphics[width=0.35\textwidth]{Pictures/MCClusteringCheck_nCandsOpAng}
-		\includegraphics[width=0.50\textwidth]{Pictures/20170505MinAngle30Deviation}
-		\caption{Left: Number of reconstructed candidates for different opening angles. Right: Deviation with $\alpha > 30 ^{\circ}$ }
-	\end{figure}
+\end{figure}	
+	MC also shows this raise
 	
+	$\rightarrow$ it can be used for further studies
 \end{frame}
+
 
 \begin{frame}
 	\frametitle{Isotropic Boost}
 	\begin{itemize}
-		\item Simulation
 		\item $\pi^0$ decay in the origin of the target
-		\item $\pi^0$ are boosted isotropically with an energy of $ 1420\, \text{MeV}$ to $1580\, \text{MeV}$
+		\item $\pi^0$ are boosted with an energy of $ 1420\, \text{MeV}$ to $1580\, \text{MeV}$ isotropically
+		
+		$\rightarrow$ all detector elements are hit roughly equally 
 	\end{itemize}
 	
 	\begin{figure}
 		\includegraphics[width=0.50\textwidth]{Pictures/20171204DistributionPhotonUrsprungIsotrop}
 		\includegraphics[width=0.50\textwidth]{Pictures/20172804IsotropUrpsprungDeviation}
-		\caption{Simulation: Isotropic decay in the origin of the target}
+	
 	\end{figure}
+$\rightarrow$ Raise is not caused by specific detector elements
 \end{frame}
+
+\begin{frame}
+	\frametitle{Dimension of the Target}
+	\begin{figure}
+	\includegraphics[width=1.00\textwidth]{Pictures/cbtaps_side.pdf}
+	\end{figure}
+	
+	
+\end{frame}
+
 
 \begin{frame}
 	\frametitle{$z$-Vertex Dependency}
 	\begin{itemize}
-		\item Simulation
+
 		\item Neglect the detectors on the edge
-		\item Devide the target in sections of $1\,\text{cm}$
+		\item Divide the target in sections of $1\,\text{cm}$
 	\end{itemize}
 
 
@@ -267,8 +271,9 @@ Reasons for a new event generator:
 \begin{figure}
 	\includegraphics[width=0.5\textwidth]{Pictures/20172604AngleRegGen100-125MeV}
 	\includegraphics[width=0.5\textwidth]{Pictures/20172604AngleRegGen400-425MeV}
-	\caption{Simulation: Angle between gen. and rec. candidates. Left: Photon energy between $125\,\text{MeV}$ and $150\,\text{MeV}$. Right: Photon energy between $425\,\text{MeV} $ and $ 450\,\text{MeV}$}
+
 \end{figure}
+$\rightarrow$ Angular resolution $\sim 1^{\circ} \,\text{to}\,2^{\circ}$
 
 \end{frame}
 
