@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.3)  25 AUG 2017 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.3)  25 AUG 2017 16:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -866,13 +866,21 @@ Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count174
 )
+(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip60
+\fb@frw=\dimen268
+\fb@frh=\dimen269
+\FrameRule=\dimen270
+\FrameSep=\dimen271
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
 code.tex
 File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
-\pgfarrowinset=\dimen268
-\pgfarrowlength=\dimen269
-\pgfarrowwidth=\dimen270
-\pgfarrowlinewidth=\dimen271
+\pgfarrowinset=\dimen272
+\pgfarrowlength=\dimen273
+\pgfarrowwidth=\dimen274
+\pgfarrowlinewidth=\dimen275
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshapes.arrows.code.tex
@@ -894,38 +902,38 @@ lit.sty))
 cturebold.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 60.
+(hyperref)                removing `math shift' on input line 61.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 60.
+(hyperref)                removing `\pi' on input line 61.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 60.
+(hyperref)                removing `superscript' on input line 61.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 60.
+(hyperref)                removing `math shift' on input line 61.
 
 (./Presentation.aux)
 \openout1 = `Presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 61.
 
  (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -967,13 +975,13 @@ File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count175
-\scratchdimen=\dimen272
+\scratchdimen=\dimen276
 \scratchbox=\box87
 \nofMPsegments=\count176
 \nofMParguments=\count177
 \everyMPshowfont=\toks48
 \MPscratchCnt=\count178
-\MPscratchDim=\dimen273
+\MPscratchDim=\dimen277
 \MPnumerator=\count179
 \makeMPintoPDFobject=\count180
 \everyMPtoPDFconversion=\toks49
@@ -996,7 +1004,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box88
-Package hyperref Info: Link coloring OFF on input line 60.
+Package hyperref Info: Link coloring OFF on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1006,9 +1014,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count181
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
 
 (./Presentation.out) (./Presentation.out)
 \@outlinefile=\write5
@@ -1039,58 +1047,58 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 60.
+LaTeX Info: Redefining \includegraphics on input line 61.
  (./Presentation.nav)
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 60.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 61.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 60.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 61.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 60.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 61.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 60.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 61.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 60.
+(Font)              <6> on input line 61.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 60.
-LaTeX Font Info:    Try loading font information for U+msa on input line 60.
+(Font)              <5> on input line 61.
+LaTeX Font Info:    Try loading font information for U+msa on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 60.
+LaTeX Font Info:    Try loading font information for U+msb on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 60.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (39.60687pt too wide) detected at line 60
+Overfull \hbox (39.60687pt too wide) detected at line 61
   [] [] [] [] [] [] [] [] [] 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 64.
+(Font)              <14.4> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 64.
+(Font)              <10> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 64.
+(Font)              <7> on input line 65.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
@@ -1100,9 +1108,9 @@ Overfull \hbox (39.60687pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 95.
+(Font)              <10.95> on input line 96.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 95.
+(Font)              <8> on input line 96.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
@@ -1143,7 +1151,7 @@ Overfull \hbox (39.60687pt too wide) has occurred while \output is active
 File: Pictures/20171904RealIntervalFitExample.pdf Graphic file (type pdf)
 <use Pictures/20171904RealIntervalFitExample.pdf>
 Package pdftex.def Info: Pictures/20171904RealIntervalFitExample.pdf used on in
-put line 123.
+put line 124.
 (pdftex.def)             Requested size: 153.64493pt x 89.4252pt.
 
 <Pictures/20171904RealUnchargedFitExample.pdf, id=264, 569.12625pt x 331.2375pt
@@ -1151,7 +1159,7 @@ put line 123.
 File: Pictures/20171904RealUnchargedFitExample.pdf Graphic file (type pdf)
  <use Pictures/20171904RealUnchargedFitExample.pdf>
 Package pdftex.def Info: Pictures/20171904RealUnchargedFitExample.pdf used on i
-nput line 123.
+nput line 124.
 (pdftex.def)             Requested size: 153.64493pt x 89.4252pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
@@ -1186,10 +1194,10 @@ Overfull \hbox (39.60687pt too wide) has occurred while \output is active
 File: Pictures/Gun.png Graphic file (type png)
 
 <use Pictures/Gun.png>
-Package pdftex.def Info: Pictures/Gun.png used on input line 159.
+Package pdftex.def Info: Pictures/Gun.png used on input line 160.
 (pdftex.def)             Requested size: 338.02072pt x 29.81703pt.
 
-Overfull \hbox (30.73085pt too wide) in paragraph at lines 159--159
+Overfull \hbox (30.73085pt too wide) in paragraph at lines 160--160
  [] 
  []
 
@@ -1206,7 +1214,7 @@ File: Pictures/20171904Uncharged2DHist.pdf Graphic file (type pdf)
 
 <use Pictures/20171904Uncharged2DHist.pdf>
 Package pdftex.def Info: Pictures/20171904Uncharged2DHist.pdf used on input lin
-e 180.
+e 181.
 (pdftex.def)             Requested size: 153.64493pt x 89.15422pt.
 
 <Pictures/20170405StrahlzeitDeviatoinNoCut.pdf, id=509, 569.12625pt x 331.2375p
@@ -1214,7 +1222,7 @@ t>
 File: Pictures/20170405StrahlzeitDeviatoinNoCut.pdf Graphic file (type pdf)
  <use Pictures/20170405StrahlzeitDeviatoinNoCut.pdf>
 Package pdftex.def Info: Pictures/20170405StrahlzeitDeviatoinNoCut.pdf used on 
-input line 180.
+input line 181.
 (pdftex.def)             Requested size: 153.64493pt x 89.4252pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
@@ -1230,7 +1238,7 @@ t>
 File: Pictures/20170405StrahlzeitBothDeviation.pdf Graphic file (type pdf)
  <use Pictures/20170405StrahlzeitBothDeviation.pdf>
 Package pdftex.def Info: Pictures/20170405StrahlzeitBothDeviation.pdf used on i
-nput line 196.
+nput line 197.
 (pdftex.def)             Requested size: 230.46739pt x 133.7288pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
@@ -1245,7 +1253,7 @@ File: Pictures/20171904SimNoCut2DHist.pdf Graphic file (type pdf)
 
 <use Pictures/20171904SimNoCut2DHist.pdf>
 Package pdftex.def Info: Pictures/20171904SimNoCut2DHist.pdf used on input line
- 219.
+ 220.
 (pdftex.def)             Requested size: 153.64493pt x 89.15422pt.
 
 <Pictures/20172804MCBothDeviation.pdf, id=744, 569.12625pt x 331.2375pt>
@@ -1253,7 +1261,7 @@ File: Pictures/20172804MCBothDeviation.pdf Graphic file (type pdf)
 
 <use Pictures/20172804MCBothDeviation.pdf>
 Package pdftex.def Info: Pictures/20172804MCBothDeviation.pdf used on input lin
-e 219.
+e 220.
 (pdftex.def)             Requested size: 153.64493pt x 89.4252pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
@@ -1270,7 +1278,7 @@ File: Pictures/20171204DistributionPhotonUrsprungIsotrop.pdf Graphic file (type
  pdf)
  <use Pictures/20171204DistributionPhotonUrsprungIsotrop.pdf>
 Package pdftex.def Info: Pictures/20171204DistributionPhotonUrsprungIsotrop.pdf
- used on input line 237.
+ used on input line 238.
 (pdftex.def)             Requested size: 153.64493pt x 89.4252pt.
 
 <Pictures/20172804IsotropUrpsprungDeviation.pdf, id=895, 569.12625pt x 331.2375
@@ -1278,7 +1286,7 @@ pt>
 File: Pictures/20172804IsotropUrpsprungDeviation.pdf Graphic file (type pdf)
  <use Pictures/20172804IsotropUrpsprungDeviation.pdf>
 Package pdftex.def Info: Pictures/20172804IsotropUrpsprungDeviation.pdf used on
- input line 237.
+ input line 238.
 (pdftex.def)             Requested size: 153.64493pt x 89.4252pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
@@ -1293,8 +1301,12 @@ degrees> <./Pictures/20172804IsotropUrpsprungDeviation.pdf>]
 File: Pictures/cbtaps_side.pdf Graphic file (type pdf)
 
 <use Pictures/cbtaps_side.pdf>
-Package pdftex.def Info: Pictures/cbtaps_side.pdf used on input line 246.
+Package pdftex.def Info: Pictures/cbtaps_side.pdf used on input line 249.
 (pdftex.def)             Requested size: 307.28987pt x 165.69377pt.
+
+Overfull \vbox (17.67294pt too high) detected at line 249
+ []
+
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
   [] [] [] [] [] [] [] [] [] 
@@ -1308,14 +1320,14 @@ File: Pictures/20172804MCZVertexDeviation.pdf Graphic file (type pdf)
 
 <use Pictures/20172804MCZVertexDeviation.pdf>
 Package pdftex.def Info: Pictures/20172804MCZVertexDeviation.pdf used on input 
-line 269.
+line 272.
 (pdftex.def)             Requested size: 230.46739pt x 134.13528pt.
 
 <Pictures/simpleCBLines.pdf, id=1063, 3226.07088pt x 3395.45099pt>
 File: Pictures/simpleCBLines.pdf Graphic file (type pdf)
 
 <use Pictures/simpleCBLines.pdf>
-Package pdftex.def Info: Pictures/simpleCBLines.pdf used on input line 269.
+Package pdftex.def Info: Pictures/simpleCBLines.pdf used on input line 272.
 (pdftex.def)             Requested size: 82.96957pt x 87.30043pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
@@ -1331,7 +1343,7 @@ tures/simpleCBLines.pdf>]
 File: Pictures/20172604AngleRegGen100-125MeV.pdf Graphic file (type pdf)
  <use Pictures/20172604AngleRegGen100-125MeV.pdf>
 Package pdftex.def Info: Pictures/20172604AngleRegGen100-125MeV.pdf used on inp
-ut line 288.
+ut line 291.
 (pdftex.def)             Requested size: 153.64493pt x 91.69824pt.
 
 <Pictures/20172604AngleRegGen400-425MeV.pdf, id=1142, 569.05696pt x 333.18515pt
@@ -1339,7 +1351,7 @@ ut line 288.
 File: Pictures/20172604AngleRegGen400-425MeV.pdf Graphic file (type pdf)
  <use Pictures/20172604AngleRegGen400-425MeV.pdf>
 Package pdftex.def Info: Pictures/20172604AngleRegGen400-425MeV.pdf used on inp
-ut line 288.
+ut line 291.
 (pdftex.def)             Requested size: 153.64493pt x 89.9561pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
@@ -1360,7 +1372,7 @@ File: Pictures/20172704MCDeviationOpeningAngle125MeV.pdf Graphic file (type pdf
 )
  <use Pictures/20172704MCDeviationOpeningAngle125MeV.pdf>
 Package pdftex.def Info: Pictures/20172704MCDeviationOpeningAngle125MeV.pdf use
-d on input line 308.
+d on input line 311.
 (pdftex.def)             Requested size: 153.64493pt x 90.53674pt.
 
 <Pictures/20172704MCDeviationOpeningAngle400MeV.pdf, id=1336, 569.05696pt x 331
@@ -1369,14 +1381,14 @@ File: Pictures/20172704MCDeviationOpeningAngle400MeV.pdf Graphic file (type pdf
 )
  <use Pictures/20172704MCDeviationOpeningAngle400MeV.pdf>
 Package pdftex.def Info: Pictures/20172704MCDeviationOpeningAngle400MeV.pdf use
-d on input line 308.
+d on input line 311.
 (pdftex.def)             Requested size: 153.64493pt x 89.37532pt.
 
 <Pictures/oangle.pdf, id=1337, 914.88228pt x 1231.38622pt>
 File: Pictures/oangle.pdf Graphic file (type pdf)
 
 <use Pictures/oangle.pdf>
-Package pdftex.def Info: Pictures/oangle.pdf used on input line 308.
+Package pdftex.def Info: Pictures/oangle.pdf used on input line 311.
 (pdftex.def)             Requested size: 30.73085pt x 41.3555pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
@@ -1408,7 +1420,7 @@ Overfull \hbox (39.60687pt too wide) has occurred while \output is active
 File: Pictures/20170205DiffOeffZVertex-4_125MeV.pdf Graphic file (type pdf)
  <use Pictures/20170205DiffOeffZVertex-4_125MeV.pdf>
 Package pdftex.def Info: Pictures/20170205DiffOeffZVertex-4_125MeV.pdf used on 
-input line 355.
+input line 358.
 (pdftex.def)             Requested size: 107.55333pt x 64.27553pt.
 
 <Pictures/20170205DiffOeffZVertexUrsprung135MeV.pdf, id=1634, 569.12625pt x 331
@@ -1417,7 +1429,7 @@ File: Pictures/20170205DiffOeffZVertexUrsprung135MeV.pdf Graphic file (type pdf
 )
  <use Pictures/20170205DiffOeffZVertexUrsprung135MeV.pdf>
 Package pdftex.def Info: Pictures/20170205DiffOeffZVertexUrsprung135MeV.pdf use
-d on input line 355.
+d on input line 358.
 (pdftex.def)             Requested size: 107.55333pt x 62.59714pt.
 
 <Pictures/20170205DiffOeffZVertex+4_125MeV.pdf, id=1635, 569.12625pt x 331.2375
@@ -1425,10 +1437,10 @@ pt>
 File: Pictures/20170205DiffOeffZVertex+4_125MeV.pdf Graphic file (type pdf)
  <use Pictures/20170205DiffOeffZVertex+4_125MeV.pdf>
 Package pdftex.def Info: Pictures/20170205DiffOeffZVertex+4_125MeV.pdf used on 
-input line 355.
+input line 358.
 (pdftex.def)             Requested size: 107.55333pt x 62.59714pt.
 
-Overfull \hbox (15.37012pt too wide) in paragraph at lines 355--355
+Overfull \hbox (15.37012pt too wide) in paragraph at lines 358--358
  [][][] 
  []
 
@@ -1438,7 +1450,7 @@ pt>
 File: Pictures/20170205DiffOeffZVertex-4_425MeV.pdf Graphic file (type pdf)
  <use Pictures/20170205DiffOeffZVertex-4_425MeV.pdf>
 Package pdftex.def Info: Pictures/20170205DiffOeffZVertex-4_425MeV.pdf used on 
-input line 355.
+input line 358.
 (pdftex.def)             Requested size: 107.55333pt x 62.59714pt.
 
 <Pictures/20170205DiffOeffZVertexUrsprung425MeV.pdf, id=1637, 569.12625pt x 331
@@ -1447,7 +1459,7 @@ File: Pictures/20170205DiffOeffZVertexUrsprung425MeV.pdf Graphic file (type pdf
 )
  <use Pictures/20170205DiffOeffZVertexUrsprung425MeV.pdf>
 Package pdftex.def Info: Pictures/20170205DiffOeffZVertexUrsprung425MeV.pdf use
-d on input line 355.
+d on input line 358.
 (pdftex.def)             Requested size: 107.55333pt x 62.59714pt.
 
 <Pictures/20170205DiffOeffZVertex+4_425MeV.pdf, id=1638, 569.12625pt x 331.2375
@@ -1455,10 +1467,10 @@ pt>
 File: Pictures/20170205DiffOeffZVertex+4_425MeV.pdf Graphic file (type pdf)
  <use Pictures/20170205DiffOeffZVertex+4_425MeV.pdf>
 Package pdftex.def Info: Pictures/20170205DiffOeffZVertex+4_425MeV.pdf used on 
-input line 355.
+input line 358.
 (pdftex.def)             Requested size: 107.55333pt x 62.59714pt.
 
-Overfull \hbox (15.37012pt too wide) in paragraph at lines 355--355
+Overfull \hbox (15.37012pt too wide) in paragraph at lines 358--358
  [][][][] 
  []
 
@@ -1502,7 +1514,7 @@ File: Pictures/20172104StrahlzeitClusterSize0Marker.pdf Graphic file (type pdf)
 
  <use Pictures/20172104StrahlzeitClusterSize0Marker.pdf>
 Package pdftex.def Info: Pictures/20172104StrahlzeitClusterSize0Marker.pdf used
- on input line 381.
+ on input line 384.
 (pdftex.def)             Requested size: 153.64493pt x 89.31004pt.
 
 <Pictures/20172104StrahlzeitClusterSize0MarkerMap.pdf, id=2282, 403.5075pt x 24
@@ -1511,7 +1523,7 @@ File: Pictures/20172104StrahlzeitClusterSize0MarkerMap.pdf Graphic file (type p
 df)
  <use Pictures/20172104StrahlzeitClusterSize0MarkerMap.pdf>
 Package pdftex.def Info: Pictures/20172104StrahlzeitClusterSize0MarkerMap.pdf u
-sed on input line 381.
+sed on input line 384.
 (pdftex.def)             Requested size: 153.64493pt x 92.01338pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
@@ -1532,7 +1544,7 @@ ngle page
 File: Pictures/20172404Clustersize3Map100MeV.pdf Graphic file (type pdf)
  <use Pictures/20172404Clustersize3Map100MeV.pdf>
 Package pdftex.def Info: Pictures/20172404Clustersize3Map100MeV.pdf used on inp
-ut line 398.
+ut line 401.
 (pdftex.def)             Requested size: 230.46739pt x 133.87648pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
@@ -1547,10 +1559,10 @@ Overfull \hbox (39.60687pt too wide) has occurred while \output is active
 File: Pictures/20172404Clustersize0Map400MeV.pdf Graphic file (type pdf)
  <use Pictures/20172404Clustersize0Map400MeV.pdf>
 Package pdftex.def Info: Pictures/20172404Clustersize0Map400MeV.pdf used on inp
-ut line 412.
+ut line 415.
 (pdftex.def)             Requested size: 230.46739pt x 133.87648pt.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 412.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 415.
 
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
@@ -1565,10 +1577,10 @@ File: Pictures/20172504StrahlzeitMoreDead.pdf Graphic file (type pdf)
 
 <use Pictures/20172504StrahlzeitMoreDead.pdf>
 Package pdftex.def Info: Pictures/20172504StrahlzeitMoreDead.pdf used on input 
-line 484.
+line 487.
 (pdftex.def)             Requested size: 184.3758pt x 107.10118pt.
 
-Overfull \hbox (11.12468pt too wide) in paragraph at lines 484--484
+Overfull \hbox (11.12468pt too wide) in paragraph at lines 487--487
  [][] 
  []
 
@@ -1585,7 +1597,7 @@ File: Pictures/20172404ThetaPhi200MeVBeam.pdf Graphic file (type pdf)
 
 <use Pictures/20172404ThetaPhi200MeVBeam.pdf>
 Package pdftex.def Info: Pictures/20172404ThetaPhi200MeVBeam.pdf used on input 
-line 497.
+line 500.
 (pdftex.def)             Requested size: 230.46739pt x 134.13528pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
@@ -1606,7 +1618,7 @@ File: Pictures/20170724RecETrueOAngle.pdf Graphic file (type pdf)
 
 <use Pictures/20170724RecETrueOAngle.pdf>
 Package pdftex.def Info: Pictures/20170724RecETrueOAngle.pdf used on input line
- 523.
+ 526.
 (pdftex.def)             Requested size: 153.64493pt x 89.4252pt.
 
 <Pictures/20170724TrueERecOAngle.pdf, id=2569, 569.12625pt x 331.2375pt>
@@ -1614,7 +1626,7 @@ File: Pictures/20170724TrueERecOAngle.pdf Graphic file (type pdf)
 
 <use Pictures/20170724TrueERecOAngle.pdf>
 Package pdftex.def Info: Pictures/20170724TrueERecOAngle.pdf used on input line
- 523.
+ 526.
 (pdftex.def)             Requested size: 153.64493pt x 89.4252pt.
 
 Overfull \hbox (39.60687pt too wide) has occurred while \output is active
@@ -1634,20 +1646,20 @@ s/20170724TrueERecOAngle.pdf, page is rotated 90 degrees>]
 \tf@snm=\write8
 \openout8 = `Presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 524.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 524.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 527.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 527.
 
 (./Presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 524.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 524.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 527.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 527.
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 9C556E7476B0A5702C9B17893C672F48;271.
  ) 
 Here is how much of TeX's memory you used:
- 21974 strings out of 494852
- 433999 string characters out of 6177658
- 609837 words of memory out of 5000000
- 24645 multiletter control sequences out of 15000+600000
+ 22026 strings out of 494852
+ 434698 string characters out of 6177658
+ 611284 words of memory out of 5000000
+ 24693 multiletter control sequences out of 15000+600000
  58328 words of font info for 69 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  48i,16n,65p,797b,623s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1665,7 +1677,7 @@ lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmsy8.pfb>
-Output written on Presentation.pdf (28 pages, 1586244 bytes).
+Output written on Presentation.pdf (28 pages, 1586800 bytes).
 PDF statistics:
  2761 PDF objects out of 2984 (max. 8388607)
  1983 compressed objects within 20 object streams
